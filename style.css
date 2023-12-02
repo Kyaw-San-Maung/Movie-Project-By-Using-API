@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #131720;
+    font-family: sans-serif;
+}
+
+h3{
+    color: white;
+}
+
+.topnav{
+    overflow: hidden;
+    background: #131720;
+    padding: 10px;
+    
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.topnav .search-container{
+    float: right;
+
+}
+
+form{
+    background: #151f30;
+    width: 300px;
+    height: 45px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    all: unset;
+    font: 15px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+
+}
+
+.thumbnail{
+    height: 350px;
+    width: 250px;
+    border-radius: 19px;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 13px;
+}
+
+.card{
+    border-radius: 19px;
+    padding: 12px;
+    text-align: center;
+    background: #151f30;
+}
