@@ -73,3 +73,7 @@ input{
     text-align: center;
     background: #151f30;
 }
+
+.card:hover{
+    background-color: #2d3e5c;
+}
